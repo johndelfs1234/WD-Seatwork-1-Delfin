@@ -65,7 +65,7 @@ It is meant for **web design practice**, teaching responsive styling, or serving
 ### 🧩 Key Components
 
 - 5 fully designed header/footer pairs:
-  - HotdogForSale (Design 1 – Rin)
+  - HotdogForSale (Design 1 – Hotdog For Sale)
   - Shidou (Design 2)
   - Sae (Design 3)
   - Barou (Design 4)
