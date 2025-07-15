@@ -92,20 +92,16 @@ It is meant for **web design practice**, teaching responsive styling, or serving
 6. Use semantic HTML (headers, nav, footer tags).
 7. Recommended folder structure:
 
-```plaintext
-ProjectFolder/
+Project/
 │
-├── assets/
-│   └── img/
-│       ├── hotdog.png
-│       ├── shido.jpg
-│       ├── sae.jpg
-│       ├── baru.jpg
-│       └── rin.jpg
-└── index.html
-| Title         | Purpose                             | Link                                                                                              |
-| ------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------- |
-| Google Fonts  | Sourcing unique fonts               | [https://fonts.google.com](https://fonts.google.com)                                              |
-| Google Images | Finding placeholder logos or photos | [https://images.google.com](https://images.google.com)                                            |
-| W3Schools     | CSS Flexbox Reference               | [https://www.w3schools.com/css/css3\_flexbox.asp](https://www.w3schools.com/css/css3_flexbox.asp) |
-| MDN Web Docs  | HTML/CSS Best Practices             | [https://developer.mozilla.org](https://developer.mozilla.org)                                    |
+├── index.html
+└── assets/
+    ├── css/
+    │   └── styles.css
+    └── img/
+        ├── hotdog.png
+        ├── shido.jpg
+        ├── sae.jpg
+        ├── baru.jpg
+        └── rin.jpg
+                                  |
