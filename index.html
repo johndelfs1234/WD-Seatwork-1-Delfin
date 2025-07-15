@@ -4,101 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Multiple Header/Footer Designs</title>
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Montserrat:wght@600&family=Great+Vibes&family=Playfair+Display&family=Space+Mono&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #ddd;
-    }
-    .design {
-      border: 2px solid #bbb;
-      margin: 40px 0;
-    }
-    header, footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px 40px;
-      color: white;
-    }
-    header .logo {
-      display: flex;
-      align-items: center;
-    }
-    header .logo img {
-      height: 80px;
-      margin-right: 15px;
-    }
-    header .logo h2 {
-      margin: 0;
-    }
-    nav {
-      display: flex;
-    }
-    nav a {
-      margin-left: 20px;
-      text-decoration: none;
-      font-weight: bold;
-      padding: 6px 12px;
-      border-radius: 4px;
-      transition: transform 0.3s, background 0.3s;
-    }
-    nav a:hover {
-      background: rgba(255,255,255,0.2);
-      transform: scale(1.05);
-    }
-    footer p {
-      margin: 0;
-      text-align: center;
-      width: 100%;
-      padding: 10px 0;
-    }
-
-    /* Design 1 – Rin (HotdogForSale) */
-    .design1 header {
-      background: #e10dde;
-    }
-    .design1 nav a { font-family: 'Satisfy', cursive; font-size: 16px; color: white; }
-    .design1 header h2, .design1 footer p { font-family: 'Satisfy', cursive; font-size: 36px; }
-    .design1 footer { background: #780376; }
-
-    /* Design 2 – Shidou */
-    .design2 header {
-      background: linear-gradient(45deg, #4c669f, #3b5998, #192f6a);
-    }
-    .design2 nav a { font-family: 'Montserrat', sans-serif; font-size: 14px; color: #fafafa; }
-    .design2 header h2, .design2 footer p { font-family: 'Montserrat', sans-serif; font-size: 32px; }
-    .design2 footer { background: linear-gradient(45deg, #1c1f33, #2c3e50); }
-
-    /* Design 3 – Sae */
-    .design3 header {
-      background: linear-gradient(to right, #ff512f, #dd2476);
-    }
-    .design3 nav a { font-family: 'Great Vibes', cursive; font-size: 18px; color: #fff; }
-    .design3 header h2, .design3 footer p { font-family: 'Great Vibes', cursive; font-size: 38px; }
-    .design3 footer { background: #b2225d; }
-
-    /* Design 4 – Barou */
-    .design4 header {
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-    }
-    .design4 nav a { font-family: 'Playfair Display', serif; font-size: 15px; color: #eef; }
-    .design4 header h2, .design4 footer p { font-family: 'Playfair Display', serif; font-size: 34px; }
-    .design4 footer { background: #1b2733; }
-
-    /* Design 5 – Sae? Actually Barou is 4; we add design5 – TBA */
-    .design5 header {
-      background: #ff9a9e;
-      background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
-    }
-    .design5 nav a { font-family: 'Space Mono', monospace; font-size: 14px; color: #222; }
-    .design5 header h2, .design5 footer p { font-family: 'Space Mono', monospace; font-size: 30px; color: #222; }
-    .design5 footer { background: #f0f0f0; color: #222; }
-  </style>
 </head>
 <body>
 
@@ -110,10 +15,15 @@
         <h2>HotdogForSale</h2>
       </div>
       <nav>
-        <a href="#">Home</a><a href="#">About</a><a href="#">Contacts</a><a href="#">FAQs</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contacts</a>
+        <a href="#">FAQs</a>
       </nav>
     </header>
-    <footer><p>John Delfin | TC05</p></footer>
+    <footer>
+      <p>John Great H. Delfin | TC05</p>
+    </footer>
   </section>
 
   <!-- Design 2 – Shidou -->
@@ -124,10 +34,15 @@
         <h2>Shidou</h2>
       </div>
       <nav>
-        <a href="#">Home</a><a href="#">About</a><a href="#">Contacts</a><a href="#">FAQs</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contacts</a>
+        <a href="#">FAQs</a>
       </nav>
     </header>
-    <footer><p>Shidou | John Great Delfin | TC05</p></footer>
+    <footer>
+      <p>Shidou | John Great H. Delfin | TC05</p>
+    </footer>
   </section>
 
   <!-- Design 3 – Sae -->
@@ -138,10 +53,15 @@
         <h2>Sae</h2>
       </div>
       <nav>
-        <a href="#">Home</a><a href="#">About</a><a href="#">Contacts</a><a href="#">FAQs</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contacts</a>
+        <a href="#">FAQs</a>
       </nav>
     </header>
-    <footer><p>Sae | TC05</p></footer>
+    <footer>
+      <p>Sae | John Great H. Delfin | TC05</p>
+    </footer>
   </section>
 
   <!-- Design 4 – Barou -->
@@ -152,10 +72,15 @@
         <h2>Barou</h2>
       </div>
       <nav>
-        <a href="#">Home</a><a href="#">About</a><a href="#">Contacts</a><a href="#">FAQs</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contacts</a>
+        <a href="#">FAQs</a>
       </nav>
     </header>
-    <footer><p>Barou | TC05</p></footer>
+    <footer>
+      <p>Barou | John Great H. Delfin | TC05</p>
+    </footer>
   </section>
 
   <!-- Design 5 – Rin -->
@@ -166,10 +91,15 @@
         <h2>Rin</h2>
       </div>
       <nav>
-        <a href="#">Home</a><a href="#">About</a><a href="#">Contacts</a><a href="#">FAQs</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contacts</a>
+        <a href="#">FAQs</a>
       </nav>
     </header>
-    <footer><p>Rin | TC05</p></footer>
+    <footer>
+      <p>Rin | John Great H. Delfin | TC05</p>
+    </footer>
   </section>
 
 </body>
